@@ -25,6 +25,14 @@ public class Main {
 		System.out.println("HOLA VIC"); 
 		System.out.println("Hola Danna");
 		System.out.println("Hola Henmtuch");
+		System.out.println("Hola");System.out.println("Hola");
+		System.out.println("Hola");
+		System.out.println("Hola");
+		System.out.println("Hola");
+		System.out.println("Hola");
+		System.out.println("Hola");
+		System.out.println("Hola");
+
 
 	}
 
