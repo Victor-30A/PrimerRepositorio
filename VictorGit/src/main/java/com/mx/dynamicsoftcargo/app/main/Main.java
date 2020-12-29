@@ -24,6 +24,7 @@ public class Main {
 		System.out.println("Hola Hugo");
 		System.out.println("HOLA VIC"); 
 		System.out.println("Hola Danna");
+		System.out.println("HOLA MARILUCHIS");
 
 	}
 
