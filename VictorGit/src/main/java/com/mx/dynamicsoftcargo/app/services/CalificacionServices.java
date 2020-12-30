@@ -12,13 +12,15 @@ import com.mx.dynamicsoftcargo.entity.Calificaciones;
 
 
 public class CalificacionServices {
-	@Autowired CalificacionesBusiness calificaciones ; 
+	@Autowired CalificacionesBusiness calificacioness ; 
 	@GetMapping ("/mostrarCalificaciones")
 	public String mostrarCalificaciones (@RequestParam int calificacion ) {
 		int calihhjk;
 		Calificaciones calificaciones = new Calificaciones();
-		calihhjk =calificaciones.setCalificacion(calificacion);
-		return calificaciones.calculoCalificaciones(calihhjk);
+		calificaciones.setCalificacion(calificacion);
+		calihhjk = calificaciones.getCalificacion();
+		
+		return calificacioness.calculoCalificaciones(calihhjk);
 	}
 	
 	
