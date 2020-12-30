@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mx.dynamicsoftcargo.app.business.CalificacionesBusiness;
+import com.mx.dynamicsoftcargo.entity.Calificaciones;
 
 @RestController
 
@@ -14,7 +15,10 @@ public class CalificacionServices {
 	@Autowired CalificacionesBusiness calificaciones ; 
 	@GetMapping ("/mostrarCalificaciones")
 	public String mostrarCalificaciones (@RequestParam int calificacion ) {
-		return calificaciones.calculoCalificaciones(calificacion);
+		int calihhjk;
+		Calificaciones calificaciones = new Calificaciones();
+		calihhjk =calificaciones.setCalificacion(calificacion);
+		return calificaciones.calculoCalificaciones(calihhjk);
 	}
 	
 	
