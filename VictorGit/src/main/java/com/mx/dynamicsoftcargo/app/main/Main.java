@@ -23,7 +23,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("Hola Hugo");
 		System.out.println("HOLA VIC"); 
-		System.out.println("Hola Danna");
+		System.out.println("Hola Zury");
 		System.out.println("Hola Henmtuch");
 		System.out.println("Hola");System.out.println("Hola");
 		System.out.println("Hola mundo cruel y despiadado");
